@@ -32,4 +32,14 @@
         }
         return 0;
     }
+    public static string FindStringMax(string myString1, string myString2, string myString3)
+    {
+        int max = 0;
+        string s = "";
+        if (myString1.Length > max) { max = myString1.Length; s = myString1; }
+        if (myString2.Length > max) { max = myString2.Length; s = myString2; }
+        if (myString3.Length > max) { max = myString3.Length; s = myString3; }
+        return s;
+    }
+
 }
