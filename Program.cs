@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-        float floatmax = FindMaximum.FindfloatMax(422.25f, 256.23f, 388.23f);
+        float floatmax = FindMaximum.FindfloatMax(222.25f, 456.23f, 388.23f);
         Console.WriteLine(floatmax);
     }
 }
